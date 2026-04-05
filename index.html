@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Suyash Sayare — 3D Artist & Game Designer</title>
+<meta name="description" content="Portfolio of Suyash Sayare — Graphic Designer, 3D Artist, Game Designer & Video Editor. Pune, India."/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Space+Grotesk:wght@300;400;500;600&family=Space+Mono&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div id="cursor"></div>
+<div id="cursor-ring"></div>
+<canvas id="bg"></canvas>
+<div class="scroll-bar" id="scrollBar"></div>
+
+<header id="header">
+  <a href="#home" class="logo">SS<span class="dot">.</span></a>
+  <nav id="nav">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a href="Suyash-Sayare-Resume.pdf" download class="nav-resume">Resume &#8595;</a>
+  <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" class="mm-link">About</a>
+  <a href="#skills" class="mm-link">Skills</a>
+  <a href="#projects" class="mm-link">Projects</a>
+  <a href="#services" class="mm-link">Services</a>
+  <a href="#contact" class="mm-link">Contact</a>
+  <a href="Suyash-Sayare-Resume.pdf" download class="mm-link mm-resume">Download Resume &#8595;</a>
+</div>
+
+<main>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-inner">
+    <div class="hero-left">
+      <p class="eyebrow r-up" style="--d:0s"><span class="eline"></span>Bhosari, Pune &mdash; Available for work</p>
+      <h1 class="hero-name r-up" style="--d:.1s">Suyash<br><span class="stroke-text">Sayare</span></h1>
+      <div class="hero-roles r-up" style="--d:.2s">
+        <span class="role-prefix">I create &mdash;</span>
+        <span id="typewriter"></span><span class="blink">|</span>
+      </div>
+      <p class="hero-bio r-up" style="--d:.3s">3D Artist, Game Developer &amp; Graphic Designer turning bold ideas into immersive visuals, playable prototypes, and unforgettable brand identities.</p>
+      <div class="hero-ctas r-up" style="--d:.4s">
+        <a href="#projects" class="btn-primary">View Projects <span class="btn-arrow">&#8594;</span></a>
+        <a href="#contact" class="btn-outline">Let's Talk</a>
+        <a href="Suyash-Sayare-Resume.pdf" download class="btn-text">Resume &#8595;</a>
+      </div>
+      <div class="hero-stats r-up" style="--d:.55s">
+        <div class="hs"><strong class="count" data-to="5">0</strong><span>Projects</span></div>
+        <div class="hs-div"></div>
+        <div class="hs"><strong class="count" data-to="7">0</strong><strong>+</strong><span>Tools</span></div>
+        <div class="hs-div"></div>
+        <div class="hs"><strong>2+</strong><span>Years</span></div>
+      </div>
+    </div>
+
+    <div class="hero-right r-up" style="--d:.25s">
+      <div class="photo-wrap" id="photoWrap">
+        <div class="photo-glow"></div>
+        <div class="photo-frame">
+          <img src="hero.png" alt="Suyash Sayare" class="photo"/>
+        </div>
+        <div class="ring ring1"></div>
+        <div class="ring ring2"></div>
+        <div class="fbadge fbadge-tl"><span>&#9654;</span> Game Dev</div>
+        <div class="fbadge fbadge-br"><span>&#10022;</span> 3D Artist</div>
+        <div class="ftag">Pune, India</div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-hint"><span>Scroll</span><div class="sh-line"></div></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-left">
+        <p class="label r-up">About me</p>
+        <h2 class="stitle r-up" style="--d:.08s">Multi-disciplinary<br><span class="stroke-text">creative mind.</span></h2>
+        <div class="about-body r-up" style="--d:.15s">
+          <p>I'm a <em>B.Sc. Animation student</em> at Modern College of Arts, Science &amp; Commerce, Pune — obsessed with making things look, feel, and play great. My work spans brand identity, game mechanics, 3D environments, and video editing.</p>
+          <p>From crafting the <em>Grohi Interiors</em> brand identity to building playable Unity prototypes, I bring a rare balance of artistic instinct and technical execution to every project.</p>
+        </div>
+        <div class="about-chips r-up" style="--d:.22s">
+          <span>English &mdash; Intermediate</span>
+          <span>Hindi &mdash; Fluent</span>
+          <span>Marathi &mdash; Native</span>
+        </div>
+        <div class="about-rows r-up" style="--d:.3s">
+          <div class="arow"><span>Education</span><span>B.Sc. Animation, Modern College Pune</span></div>
+          <div class="arow"><span>Email</span><a href="mailto:suyashsayare09@gmail.com">suyashsayare09@gmail.com</a></div>
+          <div class="arow"><span>Phone</span><a href="tel:+919307712968">+91 9307712968</a></div>
+          <div class="arow"><span>Status</span><span class="open-tag"><span class="open-dot"></span>Open to opportunities</span></div>
+        </div>
+      </div>
+      <div class="about-right">
+        <div class="stat-grid">
+          <div class="scard r-up" style="--d:.1s">
+            <span class="snum count" data-to="5">0</span>
+            <span class="slabel">Projects done</span>
+            <div class="sbar"><div class="sfill" style="--w:83%"></div></div>
+          </div>
+          <div class="scard r-up" style="--d:.2s">
+            <span class="snum">7+</span>
+            <span class="slabel">Tools mastered</span>
+            <div class="sbar"><div class="sfill" style="--w:100%"></div></div>
+          </div>
+          <div class="scard r-up" style="--d:.3s">
+            <span class="snum">2+</span>
+            <span class="slabel">Years designing</span>
+            <div class="sbar"><div class="sfill" style="--w:60%"></div></div>
+          </div>
+          <div class="scard r-up" style="--d:.4s">
+            <span class="snum">3</span>
+            <span class="slabel">Unity games built</span>
+            <div class="sbar"><div class="sfill" style="--w:100%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section sdark">
+  <div class="wrap">
+    <p class="label r-up">Tools &amp; expertise</p>
+    <h2 class="stitle r-up" style="--d:.08s">What I work with<br><span class="stroke-text">every single day.</span></h2>
+    <div class="skills-grid">
+      <div class="skgroup r-up" style="--d:.05s">
+        <h3 class="skcat"><span class="skico">&#9632;</span> Game &amp; 3D</h3>
+        <div class="sktags">
+          <span>Unity</span><span>Blender</span><span>Maya</span><span>3ds Max</span>
+          <span>3D Modeling</span><span>Texturing</span><span>Game Testing</span><span>Level Design</span>
+        </div>
+      </div>
+      <div class="skgroup r-up" style="--d:.12s">
+        <h3 class="skcat"><span class="skico">&#9633;</span> Design &amp; Motion</h3>
+        <div class="sktags">
+          <span>Adobe Photoshop</span><span>Adobe Illustrator</span><span>Canva</span>
+          <span>CorelDRAW</span><span>Brand Identity</span><span>Poster Design</span><span>UI/UX</span>
+        </div>
+      </div>
+      <div class="skgroup r-up" style="--d:.2s">
+        <h3 class="skcat"><span class="skico">&#9651;</span> Video &amp; Post</h3>
+        <div class="sktags">
+          <span>Premiere Pro</span><span>After Effects</span><span>Video Editing</span>
+          <span>Motion Graphics</span><span>Storyboarding</span><span>Compositing</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="wrap">
+    <p class="label r-up">Selected work</p>
+    <h2 class="stitle r-up" style="--d:.08s">Real projects,<br><span class="stroke-text">real results.</span></h2>
+    <div class="fbar r-up" style="--d:.15s">
+      <button class="fb active" data-f="all">All</button>
+      <button class="fb" data-f="branding">Branding</button>
+      <button class="fb" data-f="game">Game Dev</button>
+    </div>
+    <div class="plist">
+
+      <article class="pcard r-up tilt" data-cat="branding" style="--d:.1s">
+        <div class="pmedia">
+          <div class="pmedia-brand">
+            <img src="grohi-branding-new.png" alt="Grohi Interiors branding" loading="lazy" class="ltrig" data-t="image" data-s="grohi-branding-new.png" data-c="Grohi Interiors — Branding Board"/>
+            <img src="grohi-logo.png" alt="Grohi Interiors logo" loading="lazy" class="ltrig logo-sq" data-t="image" data-s="grohi-logo.png" data-c="Grohi Interiors — Logo"/>
+          </div>
+          <span class="pbadge">Branding</span>
+        </div>
+        <div class="pinfo">
+          <span class="pnum">01</span>
+          <h3 class="ptitle">Grohi Interiors</h3>
+          <p class="pdesc">Complete brand identity — logo, visiting cards, and visual assets for a premium interior design company in Bhosari, Pune.</p>
+          <div class="ptags"><span>Logo Design</span><span>Visiting Card</span><span>Identity System</span><span>Photoshop</span></div>
+          <div class="pacts">
+            <button class="pabtn ltrig" data-t="image" data-s="grohi-branding-new.png" data-c="Grohi Interiors — Branding Board">View Branding &#8599;</button>
+            <button class="pabtn ghost ltrig" data-t="image" data-s="grohi-logo.png" data-c="Grohi Interiors — Logo">View Logo</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard r-up tilt rev" data-cat="branding" style="--d:.15s">
+        <div class="pmedia">
+          <div class="pmedia-dual">
+            <img src="vishnu-fashion-1.png" alt="Vishnu Fashion poster 1" loading="lazy" class="ltrig" data-t="image" data-s="vishnu-fashion-1.png" data-c="Vishnu Priya Fashion Center — Poster 1"/>
+            <img src="vishnu-fashion-2.png" alt="Vishnu Fashion poster 2" loading="lazy" class="ltrig" data-t="image" data-s="vishnu-fashion-2.png" data-c="Vishnu Priya Fashion Center — Poster 2"/>
+          </div>
+          <span class="pbadge">Branding</span>
+        </div>
+        <div class="pinfo">
+          <span class="pnum">02</span>
+          <h3 class="ptitle">Vishnu Priya Fashion</h3>
+          <p class="pdesc">Two large-format flex/billboard visuals for a local fashion centre — high visual impact, strong local appeal, and clear hierarchy for retail promotion.</p>
+          <div class="ptags"><span>Billboard</span><span>Flex Print</span><span>Retail Promo</span><span>Illustrator</span></div>
+          <div class="pacts">
+            <button class="pabtn ltrig" data-t="image" data-s="vishnu-fashion-1.png" data-c="Vishnu Priya — Poster 1">Open Design 1 &#8599;</button>
+            <button class="pabtn ghost ltrig" data-t="image" data-s="vishnu-fashion-2.png" data-c="Vishnu Priya — Poster 2">Open Design 2</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="pcard r-up" data-cat="game" style="--d:.2s">
+        <div class="pmedia">
+          <div class="pvid-wrap">
+            <video class="pvid av" src="endless-runner-demo.mp4" muted loop playsinline></video>
+            <div class="pvid-overlay">
+              <button class="play-btn ltrig" data-t="video" data-s="endless-runner-demo.mp4" data-c="Endless Runner Game — Unity Demo">
+                <svg viewBox="0 0 48 48" fill="none" width="52" height="52"><circle cx="24" cy="24" r="23" stroke="white" stroke-width="1.5"/><path d="M19 16l14 8-14 8V16z" fill="white"/></svg>
+                <span>Watch Demo</span>
+              </button>
+            </div>
+          </div>
+          <span class="pbadge">Unity · Game Dev</span>
+        </div>
+        <div class="pinfo">
+          <span class="pnum">03</span>
+          <h3 class="ptitle">Endless Runner Game</h3>
+          <p class="pdesc">Temple Run-style 3D endless runner built in Unity. Swipe-to-lane controls, obstacle generation, score system, and smooth camera follow — built and tested from scratch.</p>
+          <div class="ptags"><span>Unity</span><span>C# Scripting</span><span>Lane Mechanics</span><span>QA Testing</span></div>
+          <div class="pacts"><button class="pabtn ltrig" data-t="video" data-s="endless-runner-demo.mp4" data-c="Endless Runner Demo">Watch Demo &#8599;</button></div>
+        </div>
+      </article>
+
+      <article class="pcard r-up rev" data-cat="game" style="--d:.25s">
+        <div class="pmedia">
+          <div class="pvid-wrap">
+            <video class="pvid av" src="car-driving-demo.mp4" muted loop playsinline></video>
+            <div class="pvid-overlay">
+              <button class="play-btn ltrig" data-t="video" data-s="car-driving-demo.mp4" data-c="Car Driving Game Prototype">
+                <svg viewBox="0 0 48 48" fill="none" width="52" height="52"><circle cx="24" cy="24" r="23" stroke="white" stroke-width="1.5"/><path d="M19 16l14 8-14 8V16z" fill="white"/></svg>
+                <span>Watch Demo</span>
+              </button>
+            </div>
+          </div>
+          <span class="pbadge">Unity · Physics</span>
+        </div>
+        <div class="pinfo">
+          <span class="pnum">04</span>
+          <h3 class="ptitle">Car Driving Prototype</h3>
+          <p class="pdesc">Physics-based driving game in Unity — realistic steering, braking, dynamic camera system, and gameplay feel refined through iterative testing.</p>
+          <div class="ptags"><span>Unity Physics</span><span>Vehicle System</span><span>Camera Design</span><span>Prototype</span></div>
+          <div class="pacts"><button class="pabtn ltrig" data-t="video" data-s="car-driving-demo.mp4" data-c="Car Driving Prototype">Watch Demo &#8599;</button></div>
+        </div>
+      </article>
+
+      <article class="pcard r-up" data-cat="game" style="--d:.3s">
+        <div class="pmedia">
+          <div class="pvid-wrap">
+            <video class="pvid av" src="minecraft-gui-demo.mp4" muted loop playsinline></video>
+            <div class="pvid-overlay">
+              <button class="play-btn ltrig" data-t="video" data-s="minecraft-gui-demo.mp4" data-c="Minecraft GUI Prototype">
+                <svg viewBox="0 0 48 48" fill="none" width="52" height="52"><circle cx="24" cy="24" r="23" stroke="white" stroke-width="1.5"/><path d="M19 16l14 8-14 8V16z" fill="white"/></svg>
+                <span>Watch Demo</span>
+              </button>
+            </div>
+          </div>
+          <span class="pbadge">GUI · Interface</span>
+        </div>
+        <div class="pinfo">
+          <span class="pnum">05</span>
+          <h3 class="ptitle">Minecraft GUI Prototype</h3>
+          <p class="pdesc">Working in-game GUI prototype with interactive inventory-style elements, layout experimentation, and camera controls exploring Unity UI systems.</p>
+          <div class="ptags"><span>Unity UI</span><span>GUI Design</span><span>Interaction</span><span>Interface</span></div>
+          <div class="pacts"><button class="pabtn ltrig" data-t="video" data-s="minecraft-gui-demo.mp4" data-c="Minecraft GUI Prototype">Watch Demo &#8599;</button></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="section sdark">
+  <div class="wrap">
+    <p class="label r-up">What I offer</p>
+    <h2 class="stitle r-up" style="--d:.08s">Services built for<br><span class="stroke-text">real outcomes.</span></h2>
+    <div class="srv-grid">
+      <div class="srvc r-up tilt" style="--d:.05s;--a:#6366f1"><div class="srvi">&#9632;</div><h3>Graphic Design</h3><p>Posters, brand assets, logos, and print-ready layouts crafted with precision and strong visual instinct.</p></div>
+      <div class="srvc r-up tilt" style="--d:.1s;--a:#06b6d4"><div class="srvi">&#9654;</div><h3>Video Editing</h3><p>Cinematic cuts, motion graphics, rhythm-based transitions, and polished reel editing for any platform.</p></div>
+      <div class="srvc r-up tilt" style="--d:.15s;--a:#8b5cf6"><div class="srvi">&#11042;</div><h3>3D Art &amp; Modeling</h3><p>3D models, environment design, texturing and renders using Blender, Maya, and 3ds Max.</p></div>
+      <div class="srvc r-up tilt" style="--d:.2s;--a:#f59e0b"><div class="srvi">&#9733;</div><h3>Branding &amp; Identity</h3><p>Complete brand systems — logo, colour palette, typography, and visual guidelines that build recognition.</p></div>
+      <div class="srvc r-up tilt" style="--d:.25s;--a:#10b981"><div class="srvi">&#9651;</div><h3>Game Design</h3><p>Unity-based game prototypes, level design, mechanics development, and gameplay feel iteration.</p></div>
+      <div class="srvc r-up tilt" style="--d:.3s;--a:#ec4899"><div class="srvi">&#9675;</div><h3>Game Testing &amp; QA</h3><p>Systematic bug identification, gameplay analysis, UX feedback, and quality assurance for game builds.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="cg-left">
+        <p class="label r-up">Get in touch</p>
+        <h2 class="stitle r-up" style="--d:.08s">Let's build<br><span class="stroke-text">something great.</span></h2>
+        <p class="csub r-up" style="--d:.15s">Open to freelance projects, internships, and full-time roles in game development, graphic design, or 3D art.</p>
+        <div class="clinks r-up" style="--d:.22s">
+          <a href="mailto:suyashsayare09@gmail.com" class="clink"><span class="clico">&#9993;</span><div><span>Email</span><strong>suyashsayare09@gmail.com</strong></div></a>
+          <a href="tel:+919307712968" class="clink"><span class="clico">&#9743;</span><div><span>Phone</span><strong>+91 9307712968</strong></div></a>
+          <a href="https://www.linkedin.com/in/suyash-sayare-165b88348" target="_blank" rel="noreferrer" class="clink"><span class="clico">in</span><div><span>LinkedIn</span><strong>suyash-sayare-165b88348</strong></div></a>
+        </div>
+        <div class="cctas r-up" style="--d:.3s">
+          <a href="https://wa.me/919307712968" target="_blank" rel="noreferrer" class="btn-primary">WhatsApp Me <span class="btn-arrow">&#8594;</span></a>
+          <a href="Suyash-Sayare-Resume.pdf" download class="btn-outline">Download Resume</a>
+        </div>
+      </div>
+      <div class="cg-right r-up" style="--d:.2s">
+        <div class="biz-card" id="bizCard">
+          <div class="biz-front">
+            <div class="biz-logo">SS.</div>
+            <div class="biz-name">Suyash Sayare</div>
+            <div class="biz-role">3D Artist &middot; Game Dev &middot; Designer</div>
+            <div class="biz-loc">&#9679; Bhosari, Pune, India</div>
+            <div class="biz-divider"></div>
+            <div class="biz-email">suyashsayare09@gmail.com</div>
+            <div class="biz-tools">Unity &middot; Blender &middot; Maya &middot; Photoshop &middot; Premiere</div>
+          </div>
+        </div>
+        <p class="card-hint">Hover the card</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap foot-inner">
+    <span class="logo">SS<span class="dot">.</span></span>
+    <p>&copy; 2026 Suyash Sudhakar Sayare &mdash; Bhosari, Pune</p>
+    <a href="Suyash-Sayare-Resume.pdf" download class="foot-res">Resume &#8595;</a>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lb-x" id="lbClose">&#10005;</button>
+  <div class="lb-content" id="lbContent"></div>
+  <p class="lb-cap" id="lbCap"></p>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
